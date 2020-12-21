@@ -10,7 +10,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(authRoutes);
 
-const mongoUri = 'mongodb+srv://admin:passwordpassword@cluster0.jdbcc.mongodb.net/<dbname>?retryWrites=true&w=majority';
+const mongoUri = '';
 mongoose.connect(mongoUri,{
         useNewUrlParser: true,
         useCreateIndex: true,
